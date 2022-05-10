@@ -12,7 +12,6 @@ const federationConfig = {
    },
    exposes: {
       "./AwesomeButton": "./src/components/AwesomeButton.tsx",
-      "./ButtonTypes": "@chakra-ui/button/src/button.tsx", // Getting Button Types from Chakra?
    },
    shared: {
       react: {
